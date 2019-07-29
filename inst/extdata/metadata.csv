@@ -1,0 +1,13 @@
+"Title","Decription","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath","Tags","Notes"
+"Saliva",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Lymphoma",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Placenta",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Liver",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Colon",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Blood (Adults) - Peripheral Leukocytes",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Blood 5 year olds",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Blood newborns",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Cord-blood (whole blood)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Cord-blood (PBMC)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Adult (PBMC)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Sperm",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA

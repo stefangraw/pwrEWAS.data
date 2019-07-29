@@ -1,0 +1,40 @@
+df = data.frame("Title" = NA, 
+                "Decription" = NA, 
+                "BiocVersion" = NA, 
+                "Genome" = NA, 
+                "SourceType" = NA, 
+                "SourceUrl" = NA, 
+                "SourceVersion" = NA, 
+                "Species" = NA, 
+                "TaxonomyId" = NA, 
+                "Coordinate_1_based" = NA, 
+                "DataProvider" = NA, 
+                "Maintainer" = NA, 
+                "RDataClass" = NA, 
+                "DispatchClass" = NA, 
+                "RDataPath" = NA, 
+                "Tags" = NA, 
+                "Notes" = NA)
+
+
+df[1:12,] = matrix(c("Saliva", "Lymphoma", "Placenta", "Liver", "Colon", "Blood (Adults) - Peripheral Leukocytes", "Blood 5 year olds", "Blood newborns", "Cord-blood (whole blood)", "Cord-blood (PBMC)", "Adult (PBMC)", "Sperm",
+                     rep(NA,12),
+                     rep("3.9", 12),
+                     rep("HM450k", 12),
+                     rep(NA,12),
+                     rep(NA,12),
+                     rep(format(Sys.time(), "%b %d %Y"),12),
+                     rep("Homo sapiens",12),
+                     rep(9606,12),
+                     rep(NA,12),
+                     rep("GEO",12),
+                     rep("sgraw@kumc.edu",12),
+                     rep(NA,12),
+                     rep(NA,12),
+                     rep(NA,12),
+                     rep(NA,12),
+                     rep(NA,12)),
+                   nrow = 12, ncol = 17, byrow = F
+)
+
+write.csv(df, file = "../extdata/metadata.csv", row.names=FALSE)
