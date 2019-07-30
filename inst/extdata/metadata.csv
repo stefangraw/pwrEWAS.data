@@ -1,13 +1,13 @@
 "Title","Decription","BiocVersion","Genome","SourceType","SourceUrl","SourceVersion","Species","TaxonomyId","Coordinate_1_based","DataProvider","Maintainer","RDataClass","DispatchClass","RDataPath","Tags","Notes"
-"Saliva",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Lymphoma",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Placenta",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Liver",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Colon",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Blood (Adults) - Peripheral Leukocytes",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Blood 5 year olds",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Blood newborns",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Cord-blood (whole blood)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Cord-blood (PBMC)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Adult (PBMC)",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
-"Sperm",NA,"3.9","HM450k",NA,NA,"Jul 26 2019","Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,NA,NA,NA,NA
+"Saliva","Genome-wide CpG-specific means and variance for Saliva","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92767",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Lymphoma","Genome-wide CpG-specific means and variance for Lymphoma","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42372",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Placenta","Genome-wide CpG-specific means and variance for Placenta","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62733",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Liver","Genome-wide CpG-specific means and variance for Liver","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE61258",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Colon","Genome-wide CpG-specific means and variance for Colon","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77718",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Blood (Adults) - Peripheral Leukocytes","Genome-wide CpG-specific means and variance for Blood (Adults) - Peripheral Leukocytes","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42861",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Blood 5 year olds","Genome-wide CpG-specific means and variance for Blood 5 year olds","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83334",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Blood newborns","Genome-wide CpG-specific means and variance for Blood newborns","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE82273",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Cord-blood (whole blood)","Genome-wide CpG-specific means and variance for Cord-blood (whole blood)","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69176",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Cord-blood (PBMC)","Genome-wide CpG-specific means and variance for Cord-blood (PBMC)","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110128",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Adult (PBMC)","Genome-wide CpG-specific means and variance for Adult (PBMC)","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67170",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
+"Sperm","Genome-wide CpG-specific means and variance for Sperm","3.9",NA,"TXT","https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114753",NA,"Homo sapiens","9606",NA,"GEO","sgraw@kumc.edu",NA,"Rda","path?",NA,"HM450k"
