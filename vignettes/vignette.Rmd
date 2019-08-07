@@ -1,5 +1,5 @@
 ---
-title: "The pwrEWAS User's Guide"
+title: "pwrEWAS_data: Reference data accompanying pwrEWAS"
 author: "Stefan Graw, Devin C. Koestler"
 date: "`r doc_date()`"
 package: "`r pkg_ver('pwrEWAS')`"
@@ -10,7 +10,7 @@ abstract: >
        of in-/outputs, instructions and an example, as well as interpretations of the example results are provided in 
        the following vignette.
 vignette: >
-  %\VignetteIndexEntry{pwrEWAS User's Guide}
+  %\VignetteIndexEntry{pwrEWAS_data: Reference data accompanying pwrEWAS}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 output: 

@@ -1,4 +1,4 @@
-Package: pwrEWAS-data
+Package: pwrEWAS_data
 Title: A user-friendly tool for comprehensive power estimation for epigenome wide association studies (EWAS) 
 Version: 0.99.01
 Description: pwrEWAS is a user-friendly tool to assists researchers in the design and planning of EWAS to help circumvent under- and overpowered studies.
@@ -13,7 +13,7 @@ Imports:
 Suggests:
     knitr,
     rmarkdown
-biocViews: DNAMethylation, Microarray, DifferentialMethylation, TissueMicroarray
+biocViews: ExperimentHub, MethylationArrayData, Tissue
 Encoding: UTF-8
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
