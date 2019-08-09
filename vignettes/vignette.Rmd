@@ -5,6 +5,7 @@ date: "`r doc_date()`"
 package: "`r pkg_ver('pwrEWAS')`"
 #bibliography: minfi.bib
 abstract: >
+  This packages provides reference data required for pwrEWAS. 
   pwrEWAS is a user-friendly tool to estimate power in EWAS as a function of sample and effect size 
        for two-group comparisons of DNAm (e.g., case vs control, exposed vs non-exposed, etc.). Detailed description 
        of in-/outputs, instructions and an example, as well as interpretations of the example results are provided in 
@@ -19,18 +20,34 @@ output:
     number_sections: false
 ---
 
-# Introduction
+# Data
 
+The following data sets were used to create the reference data. Therefore, for each tissue type CpG-specific means and variances were estimated ($\hat{\mu}_j =  1/N \sum_{i=1}^N \beta_{i,j}$ and $\sigma_j^2 = 1/(N-1) \sum_{i=1}^N (\beta_{i,j}-\hat{\mu}_j)^2$), where $\beta_{i,j}$ represents the methylation $\beta$-value for CpG j={1,.,J} in subject i={1,.,N}. 
 
-When designing an epigenome-wide association study (EWAS) to investigate the relationship between DNA methylation (DNAm) and some exposure(s) or phenotype(s), it is critically important to assess the sample size needed to detect a hypothesized difference with adequate statistical power. However, the complex and nuanced nature of DNAm data makes direct assessment of statistical power challenging. To circumvent these challenges and to address the outstanding need for a user-friendly interface for EWAS power evaluation, we have developed pwrEWAS. The current implementation of pwrEWAS accommodates power estimation for two-group comparisons of DNAm (e.g. case vs control, exposed vs non-exposed, etc.), where methylation assessment is carried out using the Illumina Human Methylation BeadChip technology. Power is calculated using a semi-parametric simulation-based approach in which DNAm data is randomly generated from beta-distributions using CpG-specific means and variances estimated from one of several different existing DNAm data sets, chosen to cover the most common tissue-types used in EWAS. In addition to specifying the tissue type to be used for DNAm profiling, users are required to specify the sample size, number of differentially methylated CpGs, effect size(s), target false discovery rate (FDR) and the number of simulated data sets, and have the option of selecting from several different statistical methods to perform differential methylation analyses. pwrEWAS reports the marginal power, marginal type I error rate, marginal FDR, and false discovery cost (FDC).
-The R-Shiny web inter-face allows for easy input of user-defined parameters and includes an advanced settings button that offers additional options pertaining to data generation and computation. 
+\begin{table}[]
+\hspace{-3cm}\begin{tabular}{llll}
+\hline
+Tissue Type              & Accession Number & Subjects within GSE-ID limited to & Reference                                 \\\hline\hline
+Saliva                   & GSE92767         &                                   & (Hong et al., 2017)                       \\
+Lymphoma                 & GSE42372         & disease state: non-HIV lymphoma   & (Matsunaga et al., 2014)                  \\
+Placenta                 & GSE62733         & health state: Normal              & (Kawai et al., 2015)                      \\
+Liver                    & GSE61258         & diseasestatus: Control            & (Horvath et al., 2014)                    \\
+Colon                    & GSE77718         & disease state: Normal             & (McInnes et al., 2017)                    \\
+Blood (Adults)           & GSE42861         & subject: Normal                   & (Kular et al., 2018; Y. Liu et al., 2013) \\
+Blood (Children)         & GSE83334         & age: 5 years                      & (Urdinguio et al., 2016)                  \\
+Blood (Newborns)         & GSE82273         &                                   & (Markunas et al., 2016)                   \\
+Cord-blood (whole blood) & GSE69176         &                                   &                                           \\
+Cord-blood (PBMC)        & GSE110128        & cord blood                        & (Langie et al., 2018)                     \\
+Adult (PBMC)             & GSE67170         & disease state: control            & (Y. H. Zhang et al., 2018)                \\
+Sperm                    & GSE114753        & control                           & (Jenkins et al., 2017)                    \\ \hline
+\end{tabular}
+\end{table}
 
-
+\newpage
 # SessionInfo
 
 ```{r sessionInfo, results='asis', echo=TRUE}
 toLatex(sessionInfo())
 ```
 
-# References
 
