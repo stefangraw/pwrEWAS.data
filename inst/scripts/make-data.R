@@ -180,6 +180,8 @@ if (length(gset) > 1) idx <- grep("GPL13534", attr(gset, "names")) else idx <- 1
 gset <- gset[[idx]]
 # data = Biobase::exprs(gset)
 # dim(data)
+utils::download.file(url = "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE110nnn/GSE110128/suppl/GSE110128_matrix_processed.txt.gz", destfile = "GSE110128_matrix_processed.txt.gz")
+GEOquery::gunzip('GSE110128_matrix_processed.txt.gz')
 data = read.table("GSE110128_matrix_processed.txt", header = TRUE, row.names = 1)
 data = data[,seq(1,dim(data)[2],2)]
 dim(data)
@@ -220,6 +222,8 @@ rm(list=ls())
 
 # Sperm
 gset <- GEOquery::getGEO("GSE114753")
+utils::download.file(url = "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114753/suppl/GSE114753_matrix_processed.txt.gz", destfile = "GSE110128_matrix_processed.txt.gz")
+GEOquery::gunzip('GSE114753_matrix_processed.txt.gz')
 data = read.table("GSE114753_matrix_processed.txt", header = TRUE, row.names = 1)
 data = data[,seq(1,dim(data)[2],2)]
 dim(data)
