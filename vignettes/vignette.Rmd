@@ -2,7 +2,7 @@
 title: "pwrEWAS_data: Reference data accompanying pwrEWAS"
 author: "Stefan Graw, Devin C. Koestler"
 date: "`r doc_date()`"
-package: "`r pkg_ver('pwrEWAS')`"
+package: "`r BiocStyle::pkg_ver('pwrEWAS')`"
 #bibliography: minfi.bib
 abstract: >
   This packages provides reference data required for pwrEWAS. 
