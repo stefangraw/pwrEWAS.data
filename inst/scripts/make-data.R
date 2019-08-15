@@ -180,7 +180,7 @@ if (length(gset) > 1) idx <- grep("GPL13534", attr(gset, "names")) else idx <- 1
 gset <- gset[[idx]]
 # data = Biobase::exprs(gset)
 # dim(data)
-data = read.table("GSE110128_matrix_processed.txt", header = T, row.names = 1)
+data = read.table("GSE110128_matrix_processed.txt", header = TRUE, row.names = 1)
 data = data[,seq(1,dim(data)[2],2)]
 dim(data)
 # data = data[ ,gset@phenoData@data$`tissue:ch1` == "cord blood" & gset@phenoData@data$`allergy:ch1` == "Control"]
@@ -220,7 +220,7 @@ rm(list=ls())
 
 # Sperm
 gset <- GEOquery::getGEO("GSE114753")
-data = read.table("GSE114753_matrix_processed.txt", header = T, row.names = 1)
+data = read.table("GSE114753_matrix_processed.txt", header = TRUE, row.names = 1)
 data = data[,seq(1,dim(data)[2],2)]
 dim(data)
 
