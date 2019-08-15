@@ -33,7 +33,7 @@ df[1:12,] = matrix(c("Saliva", "Lymphoma", "Placenta", "Liver", "Colon", "Blood 
                      rep("Rda",12),
                      paste("pwrEWAS_data/", c("Saliva.rdata", "Lymphoma.rdata", "Placenta.rdata", "Liver.rdata", "Colon.rdata", "Blood_adult.rdata", "Blood_5yrOlds.rdata", "BloodNewborns.rdata", "CordBlood_wholeBlood.rdata", "CordBlood_PBMC.rdata", "Adult_PBMC.rdata", "Sperm.rdata"), sep = ""),
                      rep("HM450k",12)),
-                   nrow = 12, ncol = 16, byrow = F
+                   nrow = 12, ncol = 16, byrow = FALSE
 )
 
 write.csv(df, file = "../extdata/metadata.csv", row.names=FALSE)
