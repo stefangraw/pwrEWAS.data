@@ -1,11 +1,11 @@
 ---
-title: "pwrEWAS_data: Reference data accompanying pwrEWAS"
+title: "pwrEWAS.data: Reference data accompanying pwrEWAS"
 author: "Stefan Graw, Devin C. Koestler"
 date: "`r BiocStyle::doc_date()`"
 package: "`r BiocStyle::pkg_ver('pwrEWAS')`"
 #bibliography: minfi.bib
 abstract: >
-  This packages provides reference data required for pwrEWAS. 
+  This package provides reference data required for pwrEWAS. 
   pwrEWAS is a user-friendly tool to estimate power in EWAS as a function of sample and effect size 
        for two-group comparisons of DNAm (e.g., case vs control, exposed vs non-exposed, etc.). Detailed description 
        of in-/outputs, instructions and an example, as well as interpretations of the example results are provided in 
@@ -42,12 +42,5 @@ Adult (PBMC)             & GSE67170         & disease state: control            
 Sperm                    & GSE114753        & control                           & (Jenkins et al., 2017)                    \\ \hline
 \end{tabular}
 \end{table}
-
-\newpage
-# SessionInfo
-
-```{r sessionInfo, results='asis', echo=TRUE}
-toLatex(sessionInfo())
-```
 
 

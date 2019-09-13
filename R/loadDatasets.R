@@ -1,41 +1,19 @@
 loadDataset <- function(tissueType){
-  methPara <- NULL
-  if(tissueType == "Saliva"){
-    methPara <- ExperimentHub::ExperimentHub()[["EH3068"]]
-  } else 
-    if(tissueType == "Lymphoma"){
-      methPara <- ExperimentHub::ExperimentHub()[["EH3069"]]
-    } else 
-      if(tissueType == "Placenta"){
-        methPara <- ExperimentHub::ExperimentHub()[["EH3070"]]
-      } else 
-        if(tissueType == "Liver"){
-          methPara <- ExperimentHub::ExperimentHub()[["EH3071"]]
-        } else 
-          if(tissueType == "Colon"){
-            methPara <- ExperimentHub::ExperimentHub()[["EH3072"]]
-          } else 
-            if(tissueType == "Blood adult"){
-              methPara <- ExperimentHub::ExperimentHub()[["EH3073"]]
-            } else
-              if(tissueType == "Blood 5 year olds"){
-                methPara <- ExperimentHub::ExperimentHub()[["EH3074"]]
-              } else 
-                if(tissueType == "Blood newborns"){
-                  methPara <- ExperimentHub::ExperimentHub()[["EH3075"]]
-                } else
-                  if(tissueType == "Cord-blood (whole blood)"){
-                    methPara <- ExperimentHub::ExperimentHub()[["EH3076"]]
-                  } else
-                    if(tissueType == "Cord-blood (PBMC)"){
-                      methPara <- ExperimentHub::ExperimentHub()[["EH3077"]]
-                    } else
-                      if(tissueType == "Adult (PBMC)"){
-                        methPara <- ExperimentHub::ExperimentHub()[["EH3078"]]
-                      } else
-                        if(tissueType == "Sperm"){
-                          methPara <- ExperimentHub::ExperimentHub()[["EH3079"]]
-                        } else
-                          stop("Tissue type not found")
+  hub <- ExperimentHub::ExperimentHub()
+  methPara <- switch(tissueType,
+                     "Saliva" = hub[["EH3068"]],
+                     "Lymphoma" = hub[["EH3069"]],
+                     "Placenta" = hub[["EH3070"]],
+                     "Liver" = hub[["EH3071"]],
+                     "Colon" = hub[["EH3072"]],
+                     "Blood adult" = hub[["EH3073"]],
+                     "Blood 5 year olds" = hub[["EH3074"]],
+                     "Blood newborns" = hub[["EH3075"]],
+                     "Cord-blood (whole blood)" = hub[["EH3076"]],
+                     "Cord-blood (PBMC)" = hub[["EH3077"]],
+                     "Adult (PBMC)" = hub[["EH3078"]],
+                     "Sperm" = hub[["EH3079"]],
+                     stop("Tissue type not found")
+  )
   return(methPara)
 }
