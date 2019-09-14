@@ -2,7 +2,7 @@
 title: "pwrEWAS.data: Reference data accompanying pwrEWAS"
 author: "Stefan Graw, Devin C. Koestler"
 date: "`r BiocStyle::doc_date()`"
-package: "`r BiocStyle::pkg_ver('pwrEWAS')`"
+package: "`r BiocStyle::pkg_ver('pwrEWAS.data')`"
 #bibliography: minfi.bib
 abstract: >
   This package provides reference data required for pwrEWAS. 
@@ -11,7 +11,7 @@ abstract: >
        of in-/outputs, instructions and an example, as well as interpretations of the example results are provided in 
        the following vignette.
 vignette: >
-  %\VignetteIndexEntry{pwrEWAS_data: Reference data accompanying pwrEWAS}
+  %\VignetteIndexEntry{pwrEWAS.data: Reference data accompanying pwrEWAS}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 output: 
