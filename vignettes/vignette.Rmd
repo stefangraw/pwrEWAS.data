@@ -6,10 +6,12 @@ package: "`r BiocStyle::pkg_ver('pwrEWAS.data')`"
 #bibliography: minfi.bib
 abstract: >
   This package provides reference data required for pwrEWAS. 
-  pwrEWAS is a user-friendly tool to estimate power in EWAS as a function of sample and effect size 
-       for two-group comparisons of DNAm (e.g., case vs control, exposed vs non-exposed, etc.). Detailed description 
-       of in-/outputs, instructions and an example, as well as interpretations of the example results are provided in 
-       the following vignette.
+  pwrEWAS is a user-friendly tool to estimate power in EWAS as a function 
+  of sample and effect size for two-group comparisons of DNAm 
+  (e.g., case vs control, exposed vs non-exposed, etc.).
+  Detailed description of in-/outputs, instructions and an example, 
+  as well as interpretations of the example results are provided in 
+  the following vignette.
 vignette: >
   %\VignetteIndexEntry{pwrEWAS.data: Reference data accompanying pwrEWAS}
   %\VignetteEngine{knitr::rmarkdown}
