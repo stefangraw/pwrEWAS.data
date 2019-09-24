@@ -1,1 +1,1 @@
-BiocGenerics:::testPackage("pwrEWAS")
+BiocGenerics:::testPackage("pwrEWAS.data")
