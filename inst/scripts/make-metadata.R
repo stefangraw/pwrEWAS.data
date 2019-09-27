@@ -28,10 +28,10 @@ df[1:12,] = matrix(c("Saliva", "Lymphoma", "Placenta", "Liver", "Colon", "Blood 
                      rep(9606,12),
                      rep(NA,12),
                      rep("GEO",12),
-                     rep("shgraw@uams.edu",12),
+                     rep("Stefan Graw <shgraw@uams.edu>",12),
                      rep("data.frame",12),
                      rep("Rda",12),
-                     paste("pwrEWAS_data/", c("Saliva.rdata", "Lymphoma.rdata", "Placenta.rdata", "Liver.rdata", "Colon.rdata", "Blood_adult.rdata", "Blood_5yrOlds.rdata", "BloodNewborns.rdata", "CordBlood_wholeBlood.rdata", "CordBlood_PBMC.rdata", "Adult_PBMC.rdata", "Sperm.rdata"), sep = ""),
+                     paste("pwrEWAS.data/", c("Saliva.rdata", "Lymphoma.rdata", "Placenta.rdata", "Liver.rdata", "Colon.rdata", "Blood_adult.rdata", "Blood_5yrOlds.rdata", "BloodNewborns.rdata", "CordBlood_wholeBlood.rdata", "CordBlood_PBMC.rdata", "Adult_PBMC.rdata", "Sperm.rdata"), sep = ""),
                      rep("HM450k",12)),
                    nrow = 12, ncol = 16, byrow = FALSE
 )
