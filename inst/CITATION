@@ -1,4 +1,4 @@
-citHeader("To cite pwrEWAS in publications use:")
+citHeader("To cite pwrEWAS.data in publications use:")
 
 citEntry(entry="Article",
     title = "pwrEWAS: a user-friendly tool for comprehensive power estimation for epigenome wide association studies (EWAS)",
